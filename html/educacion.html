@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <style media="screen">
+    #header{background-color:#00bff0 }
+    #nav{background-color:#00bff0 }
+    #pie_de_pagina{background-color: #00bff0; }
+    </style>
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <div id="logo">
+      <svg height="100px" width="300px">
+        <image xlink:href="../multimedia/img/LOGO.svg" width="300px" height="100px" >
+      </svg>
+    </div>
+
+    <div id="header">
+      <h1>Curriculum Vitae</h1>
+      <h2>Jhon Henry Torres Carrera</h2> <h3> 18/01/1998 Quito/Ecuador</h3>
+    </div>
+
+    <div id="nav">
+     <a href="../index.html" target="_blank">Inicio | </a> <a href="experiencia.html" target="_blank">Experiencia</a>
+    </div>
+
+    <div id="educacion">
+      <h2>Educación</h2>
+    </div>
+
+    <div id="tabla">
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2017</td>
+            <td>Instituto Técnico Superior "Luis Napoleón Dillon"</td>
+            <td>Quito</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>12/2018</td>
+            <td>Next University</td>
+            <td>Cibernético</td>
+            <td>En Proceso</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="Formulario">
+      <form>
+        <h3>Agregar Estudios</h3>
+        <p>
+          <label for="recommend">Año:</label>
+          <select name="recommend">
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Intitución:</label>
+          <input type="text" name="institucion" id="institucion" required>
+        </p>
+        <p>
+          <label for="lugar">Lugar:</label>
+          <textarea name="lugar" rows="1" cols="15" maxlength="25"></textarea>
+        </p>
+        <p>
+          <label for="culminación">¿Culminó?:</label>
+          <input type="radio" name="confirmación">si
+          <input type="radio" name="confirmación">no
+        </p>
+        <p>
+          <input type="submit" name="enviar" value="Enviar">
+        </p>
+      </form>
+    </div>
+
+    <div id="pie_de_pagina">
+      <p>Contactos:</p>
+      <p>
+        <a href="mailto:jhon-3316@hotmail.com">Correo Electrónico</a> | tel. 0994732479 | <a href="https://www.facebook.com/jhonhetorres">Facebook</a>
+      </p>
+    </div>
+  </body>
+</html>
